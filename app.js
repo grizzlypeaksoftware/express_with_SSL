@@ -4,6 +4,13 @@ var http = require('http');
 var https = require('https');
 var fs = require("fs");
 
+var app = express();
+
+/* GET home page. */
+app.get('/', function (req, res) {
+    res.send("HELLO WORLD");
+});
+
 // file location of private key
 var privateKey = fs.readFileSync( 'private.key' );
 
