@@ -1,0 +1,14 @@
+{
+  "name": "express_with_SSL",
+  "version": "1.0.0",
+  "description": "Express Website that serves up SSL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shane Larson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"    
+  }
+}
